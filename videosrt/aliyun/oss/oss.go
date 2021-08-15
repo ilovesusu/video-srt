@@ -11,6 +11,7 @@ import (
 
 type AliyunOss struct {
 	Endpoint string
+	EndpointInternal string
 	AccessKeyId string
 	AccessKeySecret string
 	BucketName string //yourBucketName
